@@ -169,6 +169,13 @@ h1, h2, h3, h4, li, p, a, span {
     max-width: 1200px;
 }
 
+.row {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
 .section-col {
     flex: 1;
 }
