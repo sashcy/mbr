@@ -1,1 +1,1 @@
-# mbr
+# amp landing page
