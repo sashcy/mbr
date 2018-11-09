@@ -20,12 +20,18 @@ body {
 .topbar {
     background-color: #2a3052;
     padding: 12px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
 }
 
 .header {
     display: flex;
     min-height: 60vh;
     padding: 20px;
+    padding-top: 160px;
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(42, 48, 82, 0.6), rgba(42, 48, 82, 0.1)), url('../images/header-img-min.jpg') no-repeat;
