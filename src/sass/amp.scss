@@ -212,6 +212,22 @@ h1, h2, h3, h4, li, p, a, span {
     margin-right: auto;
 }
 
+.step {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    background-color: #e98024;
+    color: #ffffff;
+    margin-top: -40px;
+    padding: 0px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* modifiers */
 .primary-color {
     color: #2a3052;
@@ -268,6 +284,14 @@ h1, h2, h3, h4, li, p, a, span {
 .bottom-md {
     margin-bottom: 30px;
 }
+
+.divider-md {
+    height: 30px;
+}
+
+.top-border {
+    border-top: 1px solid #f2f2f2;
+}
 /* stylelint-enable color-no-hex */
 
 @media (max-width: 767px) {
@@ -294,5 +318,20 @@ h1, h2, h3, h4, li, p, a, span {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+    }
+    .step {
+        margin-top: 20px;
+    }
+    .top-border {
+        border: none;
+    }
+    .md-hide {
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .button, .button-secondary {
+        display: block;
+        margin: 5px;
     }
 }
