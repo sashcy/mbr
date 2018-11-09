@@ -1,12 +1,12 @@
 module.exports = {
     all: {   
         options: {
-            removeComments: true,
+            removeComments: false,
             collapseWhitespace: true
             },
         files: [{
             expand: true,
-            cwd: 'src',
+            cwd: 'dist',
             src: ['**/*.html', '*.html'],
             dest: 'dist'
         }]

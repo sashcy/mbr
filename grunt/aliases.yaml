@@ -6,10 +6,11 @@ default:
   - 'copy'
   - 'svgmin'
   - 'imagemin'
+  - 'includes'
   - 'connect:livereload'
   - 'watch'
 
-prepare:
+dev:
   - 'stylelint'
   - 'sass'
   - 'postcss'
@@ -17,9 +18,10 @@ prepare:
   - 'copy'
   - 'svgmin'
   - 'imagemin'
-  - 'htmlmin'
+  - 'includes'
+  - 'htmlmin' 
   - 'connect:livereload'
-  - 'watch'  
+  - 'watch'
 
 serve:
   - 'connect:livereload'
