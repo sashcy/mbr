@@ -1,1 +1,0 @@
-# amp landing page
